@@ -44,4 +44,4 @@
 })();
 
 /* Header store dropdown */
-(function(){var g=document.querySelector(".nav-get");if(!g)return;var b=g.querySelector("button");b.addEventListener("click",function(e){e.stopPropagation();var open=g.classList.toggle("open");b.setAttribute("aria-expanded",open);});document.addEventListener("click",function(e){if(!g.contains(e.target)){g.classList.remove("open");b.setAttribute("aria-expanded","false");}});})();
+(function(){var g=document.querySelector(".nav-get");if(!g)return;var b=g.querySelector("button");function close(){g.classList.remove("open");b.setAttribute("aria-expanded","false");b.focus();}b.addEventListener("click",function(e){e.stopPropagation();var open=g.classList.toggle("open");b.setAttribute("aria-expanded",open);});document.addEventListener("click",function(e){if(!g.contains(e.target))close();});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&g.classList.contains("open")){e.preventDefault();close();}});})();
