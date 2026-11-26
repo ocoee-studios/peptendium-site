@@ -48,6 +48,7 @@ a.evidence-row{color:inherit;min-height:100px;transition:background .2s ease,box
 @media(max-width:400px){.visual-seal .seal-logo{width:40px;height:40px;border-radius:11px}}
 @media(min-width:2200px){.visual-seal .seal-logo{width:62px;height:62px;border-radius:17px}}
 
+.store-buttons{display:flex;gap:12px;flex-wrap:wrap}.store.google svg{width:20px;height:24px}.closing .store-buttons{justify-content:center;margin-top:29px}
 .academy-caption .caption-logo{width:48px;height:48px;object-fit:contain;flex-shrink:0;border-radius:13px;border:1px solid #ffffffdb;box-shadow:0 3px 12px #31557610}.closing-logo{width:88px;height:88px;margin-inline:auto;border-radius:23px;border:1px solid #ffffffeb;box-shadow:0 8px 24px #31557615}
 @media(max-width:400px){.academy-caption .caption-logo{width:40px;height:40px;border-radius:11px}.closing-logo{width:76px;height:76px;border-radius:20px}}
 @media(min-width:2200px){.academy-caption .caption-logo{width:62px;height:62px;border-radius:17px}.closing-logo{width:112px;height:112px;border-radius:29px}}
